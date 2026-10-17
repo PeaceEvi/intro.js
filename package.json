@@ -1,0 +1,26 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PeaceEvi/intro.js#readme",
+  "bugs": {
+    "url": "https://github.com/PeaceEvi/intro.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeaceEvi/intro.js.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0"
+  }
+}
